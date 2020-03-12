@@ -567,3 +567,8 @@ education = {
 ninja = {
     'extend': 'education'
 }
+
+cloud = {
+    'extend': 'com',
+    'registrant':               r'Registrant Organization:\s?(.+)'
+}
